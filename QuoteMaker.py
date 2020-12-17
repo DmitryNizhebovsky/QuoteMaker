@@ -4,7 +4,7 @@ class QuoteMaker:
     def __init__(self, msg_font_color = None, msg_background_color = None, nickname_font_color = None):
         self.msg_font_color = msg_font_color or (255, 255, 255, 255)
         self.msg_background_color = msg_background_color or (30, 50, 80, 255)
-        self.nickname_font_color = nickname_font_color or (160, 39, 160, 255)
+        self.nickname_font_color = nickname_font_color or (0, 190, 115, 255)
         self.avatar_size = 50
         self.sticker_max_size = 512
         self.msg_font_size = 16
